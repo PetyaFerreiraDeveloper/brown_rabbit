@@ -12,6 +12,7 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 main {
@@ -19,6 +20,37 @@ main {
     flex-direction: column;
     align-items: center;
     background: white;
+}
+
+button {
+    background: none;
+}
+
+button:hover {
+    cursor: pointer;   
+}
+
+header {
+    margin: 0;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 90vw;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
 .backdrop,
@@ -30,7 +62,7 @@ main {
     z-index: 100;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .open-mobile-search {
@@ -47,7 +79,7 @@ main {
     position: absolute;
     z-index: 101;
     min-height: 6rem;
-    background: red;
+    background: black;
     width: 90vw;
     transition: transform 0.5s ease;
     transform: translateY(4rem);
@@ -83,40 +115,31 @@ main {
     align-items: center;
 }
 
-.search-results p{
-    background: red;
-    color: white;
-}
-
-button {
-    background: none;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-header {
-    margin: 0;
-    left: 0;
-    top: 0;
-    padding: 1rem;
-    background-color: black;
-    width: 100vw;
+.search-results {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.search-results article {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.wrapper {
-    width: 90vw;
-    max-width: 960px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    left: 0;
-    right: 0;
+.search-results button {
+    background: white;
+}
+
+.search-results button:hover {
+    background: #707070;
+    color: white;
 }
 
 .logo {
@@ -135,6 +158,12 @@ header button {
     color: white;
 }
 
+header button:hover {
+    background-color: #707070; 
+    color: white;
+}
+
+
 .search-form {
     display: flex;
     align-items: center;
@@ -150,7 +179,7 @@ header button {
     display: none;
 }
 
-.icons,
+.search-icons .social-icons,
 .nav-menu {
     display: none;
 }
@@ -201,19 +230,33 @@ header button {
     padding: 0;
 }
 
+.mobile-nav-list li {
+    padding-left: 1rem;
+}
+
 .mobile-nav-list li:hover {
     cursor: pointer;
-    background: white;
-    color: black;
+    background: #707070;
 }
 
-.mobile-nav-icons {
-    align-self: center;
+.social-icons {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: gray 0.1rem solid;
 }
 
-.mobile-nav-icons img {
-    margin: 3rem 1rem;
+.mobile-nav .social-icons {
+    border-bottom: none;
+}
+
+.social-icons img {
+    padding: 1rem;
+}
+
+.social-icons img:hover {
     cursor: pointer;
+    background: #707070;
 }
 
 .slider {
@@ -252,6 +295,11 @@ header button {
     background: white;
     position: relative;
     top: -5rem;
+}
+
+.container button:hover {
+    background: black;
+    color: white;
 }
 
 .text-box {
@@ -391,17 +439,9 @@ footer {
     color: white;
 }
 
-.social-icons {
-    padding: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    border-bottom: gray 0.1rem solid;
-}
-
 footer h3 {
     margin: 0;
     color: gray;
-    
 }
 
 .insta-icons {
@@ -447,10 +487,6 @@ footer h3 {
         border-bottom: none;
     }
 
-    .social-icons img {
-        padding: 0.5rem;
-    }
-   
     .footer-header {
         display: flex;
         align-items: center;
@@ -490,16 +526,21 @@ footer h3 {
         display: none;
     }
 
-    .icons, 
+    .search-icons .social-icons,
     .nav-menu {
         display: flex;
+    }
+
+    .search-icons .social-icons {
+        padding: 0;
+        margin-left: 1rem;
     }
 
     .search-icons {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
 
     .search-form {
@@ -532,23 +573,21 @@ footer h3 {
         opacity: 1;
     }
 
-    .icons {
-        margin-left: 1rem;
-    }
-
-    .icons img {
-        padding: 0.5rem;
-    }
-
     .nav-list {
         color: white;
         display: flex;
-        margin-right: 1rem;
+        /* margin-right: 1rem; */
     }
 
     .nav-list li{
         list-style: none;
-        margin: 1rem;
+        padding: 1rem;
+    
+    }
+
+    .nav-list li:hover {
+        background: #707070;
+        cursor: pointer;
     }
 
     .wrapper {

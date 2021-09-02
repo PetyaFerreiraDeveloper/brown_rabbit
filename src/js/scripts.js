@@ -37,7 +37,7 @@ const ARTICLES = [
         img: 'assets/images/posts/post-1.png',
         title: 'Wonderful Copenhagen 2021',
         date: '12/07/2021',
-        description: 'Krasta aim is to understand the science behind our sensory perceptions. And by stimulating the senses we will improve our tasting skills. Therefore the program will be a mix of aroma sessions, basic taste theory Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
+        description: 'The aim is to understand the science behind our sensory perceptions. And by stimulating the senses we will improve our tasting skills. Therefore the program will be a mix of aroma sessions, basic taste theory Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 2,
@@ -290,7 +290,6 @@ hamburger.addEventListener('click', function() {
 closeNav.addEventListener('click', closeSearchModal);
 
 
-
 // ********** SLIDER THAT CHANGES THE IMAGE AND QUOTE UPON SLIDING **********
 
 let sliderImage = document.getElementById('slider');
@@ -361,6 +360,23 @@ function printArticle(numCharacters, paginatedItems) {
     return 'No results found.'
 };
 
+function printFoundArticle(numCharacters, paginatedItems) {
+    if(paginatedItems.length > 2){
+        let articles = paginatedItems.map(article =>
+            `<article class="news-article" id=${article.id}>
+            <div class="article-info">
+            <h2>${article.title}</h2>
+            <p class="news-article-posted">Published: ${article.date}</p>
+            <p class="news-article-text" id=${article.id + 1000}>${article.description.substring(0, numCharacters)}...</p>
+            <button class="read-more" id=${article.id - 1}>Read more</button>
+            </div>
+        </article>`).join('');
+
+        return articles;
+    } 
+    return 'No results found.'
+};
+
 function displayArticles(items, rowsPerPage, page) {
     page--;
 
@@ -369,14 +385,11 @@ function displayArticles(items, rowsPerPage, page) {
     let paginatedItems = items.slice(start, end);
 // if the desktop size is min 1200px display more characters from the article
     let w = document.documentElement.clientWidth || window.innerWidth;
-
-    console.log(w);
     if (w <= 480) {
         listElement.innerHTML = printArticle(90, paginatedItems);
     } else {
         listElement.innerHTML = printArticle(200, paginatedItems);
     };
-    
 }
 
 // ********** LOAD SPONSORS LOGOS **********
@@ -508,21 +521,19 @@ function search(term) {
             return articleString.match(searchTextRegex)
             //return results.length ? results : ['No results found'];
         });
-        
     }
-    
 }
 
 SEARCHDESKTOP.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         searchText = e.target.value;
         SEARCHMOBILE.value = searchText;
+        
         search(searchText);
         if (searchText.length) {
             displaySearchResults();
         }
     }
-    
 })
 
 SEARCHMOBILE.addEventListener('keypress', (e) => {
@@ -530,10 +541,9 @@ SEARCHMOBILE.addEventListener('keypress', (e) => {
     if (e.key === 'Enter'){
         search(searchText);
         if (searchText.length) {
-            SEARCHRESULTS.innerHTML = printArticle(90, filteredList);
+            SEARCHRESULTS.innerHTML = printFoundArticle(90, filteredList);
         }
     }
-    
 })
 
 SEARCHMOBILE.addEventListener('keyup', (e) => {
@@ -542,14 +552,6 @@ SEARCHMOBILE.addEventListener('keyup', (e) => {
         SEARCHRESULTS.innerHTML = '';
     }
 })
-
-// SEARCHDESKTOP.addEventListener('keyup', (e) => {
-//     const VALUE = e.target.value.trim();
-//     console.log('!VALUE.length', !VALUE.length)
-//     if (!VALUE.length) {
-//         filteredList = [];
-//     }
-// })
 
 // ********** OPEN AND CLOSE MOBILE SEARCH **********
 
@@ -562,7 +564,7 @@ function displaySearchResults(){
     mobileSearch.classList.add('open-modal');
     backdropSearch.classList.add('open');
     mobileInputSearch.focus();
-    SEARCHRESULTS.innerHTML = printArticle(90, filteredList);
+    SEARCHRESULTS.innerHTML = printFoundArticle(90, filteredList);
 }
 
 searchBtn.addEventListener('click', () => {
@@ -573,7 +575,7 @@ searchBtn.addEventListener('click', () => {
     search(searchText);
     mobileInputSearch.focus();
     if (searchText.length) {
-        SEARCHRESULTS.innerHTML = printArticle(90, filteredList);
+        SEARCHRESULTS.innerHTML = printFoundArticle(90, filteredList);
     }
     
 } )
@@ -581,5 +583,5 @@ searchBtn.addEventListener('click', () => {
 modalSearchBtn.addEventListener('click', () => {
     searchText = SEARCHMOBILE.value;
     search(searchText);
-    SEARCHRESULTS.innerHTML = printArticle(90, filteredList);
+    SEARCHRESULTS.innerHTML = printFoundArticle(90, filteredList);
 } )
