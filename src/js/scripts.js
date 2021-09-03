@@ -34,112 +34,112 @@ const HIGHLIGHTS = [
 const ARTICLES = [
     {
         id: 1,
-        img: 'assets/images/posts/post-1.png',
+        img: 'src/assets/images/posts/post-1.png',
         title: 'Wonderful Copenhagen 2021',
         date: '12/07/2021',
         description: 'The aim is to understand the science behind our sensory perceptions. And by stimulating the senses we will improve our tasting skills. Therefore the program will be a mix of aroma sessions, basic taste theory Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 2,
-        img: 'assets/images/posts/post-2.png',
+        img: 'src/assets/images/posts/post-2.png',
         title: 'Nordic Barista Cup 2021 ...',
         date: '25/07/2021',
         description: 'Nordic Barista Cup 2021 will be held in Copenhagen, Denmark. Dates: 25th-27th August 2021. The theme for the 2021 seminar is: SENSORY. More information will follow on this page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 3,
-        img: 'assets/images/posts/post-3.png',
+        img: 'src/assets/images/posts/post-3.png',
         title: '2021 Winners: Norway',
         date: '01/09/2021',
         description: 'Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo - well, at least that is what I think, since I haven\'t seen much of anything else around here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 4,
-        img: 'assets/images/posts/post-4.png',
+        img: 'src/assets/images/posts/post-4.png',
         title: 'For the coffee fans',
         date: '01/10/2021',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit temporibus quibusdam blanditiis, soluta a, doloribus inventore earum tenetur id dolores cupiditate aperiam commodi numquam deleniti non ex praesentium odio amet?'
     },
     {
         id: 5,
-        img: 'assets/images/posts/post-1.png',
+        img: 'src/assets/images/posts/post-1.png',
         title: 'Wonderful Copenhagen 2021',
         date: '12/07/2021',
         description: 'The aim is to understand the science behind our sensory perceptions. And by stimulating the senses we will improve our tasting skills. Therefore the program will be a mix of aroma sessions, basic taste theory Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 6,
-        img: 'assets/images/posts/post-3.png',
+        img: 'src/assets/images/posts/post-3.png',
         title: 'Nordic Barista Cup 2021 ...',
         date: '25/07/2021',
         description: 'Nordic Barista Cup 2021 will be held in Copenhagen, Denmark. Dates: 25th-27th August 2021. The theme for the 2021 seminar is: SENSORY. More information will follow on this page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 7,
-        img: 'assets/images/posts/post-3.png',
+        img: 'src/assets/images/posts/post-3.png',
         title: '2021 Winners: Norway',
         date: '01/09/2021',
         description: 'Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo - well, at least that is what I think, since I haven\'t seen much of anything else around here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 8,
-        img: 'assets/images/posts/post-1.png',
+        img: 'src/assets/images/posts/post-1.png',
         title: 'For the coffee fans',
         date: '01/10/2021',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit temporibus quibusdam blanditiis, soluta a, doloribus inventore earum tenetur id dolores cupiditate aperiam commodi numquam deleniti non ex praesentium odio amet?'
     },
     {
         id: 9,
-        img: 'assets/images/posts/post-1.png',
+        img: 'src/assets/images/posts/post-1.png',
         title: 'Wonderful Copenhagen 2021',
         date: '12/07/2021',
         description: 'The aim is to understand the science behind our sensory perceptions. And by stimulating the senses we will improve our tasting skills. Therefore the program will be a mix of aroma sessions, basic taste theory Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 10,
-        img: 'assets/images/posts/post-1.png',
+        img: 'src/assets/images/posts/post-1.png',
         title: 'Nordic Barista Cup 2021 ...',
         date: '25/07/2021',
         description: 'Nordic Barista Cup 2021 will be held in Copenhagen, Denmark. Dates: 25th-27th August 2021. The theme for the 2021 seminar is: SENSORY. More information will follow on this page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 11,
-        img: 'assets/images/posts/post-3.png',
+        img: 'src/assets/images/posts/post-3.png',
         title: '2021 Winners: Norway',
         date: '01/09/2021',
         description: 'Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo - well, at least that is what I think, since I haven\'t seen much of anything else around here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 12,
-        img: 'assets/images/posts/post-2.png',
+        img: 'src/assets/images/posts/post-2.png',
         title: 'For the coffee fans',
         date: '01/10/2021',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit temporibus quibusdam blanditiis, soluta a, doloribus inventore earum tenetur id dolores cupiditate aperiam commodi numquam deleniti non ex praesentium odio amet?'
     },
     {
         id: 13,
-        img: 'assets/images/posts/post-3.png',
+        img: 'src/assets/images/posts/post-3.png',
         title: 'Wonderful Copenhagen 2021',
         date: '12/07/2021',
         description: 'The aim is to understand the science behind our sensory perceptions. And by stimulating the senses we will improve our tasting skills. Therefore the program will be a mix of aroma sessions, basic taste theory Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 14,
-        img: 'assets/images/posts/post-2.png',
+        img: 'src/assets/images/posts/post-2.png',
         title: 'Nordic Barista Cup 2021 ...',
         date: '25/07/2021',
         description: 'Nordic Barista Cup 2021 will be held in Copenhagen, Denmark. Dates: 25th-27th August 2021. The theme for the 2021 seminar is: SENSORY. More information will follow on this page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 15,
-        img: 'assets/images/posts/post-4.png',
+        img: 'src/assets/images/posts/post-4.png',
         title: '2021 Winners: Norway',
         date: '01/09/2021',
         description: 'Oh my goodness, the final night is here! We are at the most incredible location in all of Oslo - well, at least that is what I think, since I haven\'t seen much of anything else around here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aut dignissimos expedita tempore dolores quo similique modi. Rerum, quis fugit ad possimus facilis excepturi hic libero veniam neque porro totam quibusdam ipsa est nulla voluptatem quas nihil quia distinctio pariatur mollitia illo dolor qui iusto. Molestiae et quisquam amet voluptatum cumque esse dignissimos, expedita autem. Vel, hic porro a repellendus eveniet similique quia, voluptatibus impedit aliquid ut iure alias eius exercitationem aut atque? Provident eius culpa iusto non omnis illum enim nam similique necessitatibus, vel tempora inventore corporis a voluptatibus reiciendis accusantium aspernatur, libero eaque modi minima commodi! Magni, neque.'
     },
     {
         id: 16,
-        img: 'assets/images/posts/post-4.png',
+        img: 'src/assets/images/posts/post-4.png',
         title: 'For the coffee fans',
         date: '01/10/2021',
         description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit temporibus quibusdam blanditiis, soluta a, doloribus inventore earum tenetur id dolores cupiditate aperiam commodi numquam deleniti non ex praesentium odio amet?'
@@ -149,67 +149,67 @@ const ARTICLES = [
 const SPONSORS = [
     {
         id: 101,
-        img: 'assets/images/sponsors/sponsor-1.png'
+        img: 'src/assets/images/sponsors/sponsor-1.png'
     },
     {
         id: 102,
-        img: 'assets/images/sponsors/sponsor-2.png'
+        img: 'src/assets/images/sponsors/sponsor-2.png'
     },
     {
         id: 103,
-        img: 'assets/images/sponsors/sponsor-3.png'
+        img: 'src/assets/images/sponsors/sponsor-3.png'
     },
     {
         id: 104,
-        img: 'assets/images/sponsors/sponsor-4.png'
+        img: 'src/assets/images/sponsors/sponsor-4.png'
     },
     {
         id: 105,
-        img: 'assets/images/sponsors/sponsor-5.png'
+        img: 'src/assets/images/sponsors/sponsor-5.png'
     },
     {
         id: 106,
-        img: 'assets/images/sponsors/sponsor-6.png'
+        img: 'src/assets/images/sponsors/sponsor-6.png'
     },
     {
         id: 107,
-        img: 'assets/images/sponsors/sponsor-7.png'
+        img: 'src/assets/images/sponsors/sponsor-7.png'
     },
     {
         id: 108,
-        img: 'assets/images/sponsors/sponsor-8.png'
+        img: 'src/assets/images/sponsors/sponsor-8.png'
     },
     {
         id: 109,
-        img: 'assets/images/sponsors/sponsor-9.png'
+        img: 'src/assets/images/sponsors/sponsor-9.png'
     },
     {
         id: 110,
-        img: 'assets/images/sponsors/sponsor-10.png'
+        img: 'src/assets/images/sponsors/sponsor-10.png'
     },
     {
         id: 111,
-        img: 'assets/images/sponsors/sponsor-11.png'
+        img: 'src/assets/images/sponsors/sponsor-11.png'
     },
     {
         id: 112,
-        img: 'assets/images/sponsors/sponsor-12.png'
+        img: 'src/assets/images/sponsors/sponsor-12.png'
     },
     {
         id: 113,
-        img: 'assets/images/sponsors/sponsor-13.png'
+        img: 'src/assets/images/sponsors/sponsor-13.png'
     },
     {
         id: 114,
-        img: 'assets/images/sponsors/sponsor-14.png'
+        img: 'src/assets/images/sponsors/sponsor-14.png'
     },
     {
         id: 115,
-        img: 'assets/images/sponsors/sponsor-15.png'
+        img: 'src/assets/images/sponsors/sponsor-15.png'
     },
     {
         id: 116,
-        img: 'assets/images/sponsors/sponsor-16.png'
+        img: 'src/assets/images/sponsors/sponsor-16.png'
     },
     {
         id: 117,
@@ -217,62 +217,62 @@ const SPONSORS = [
     },
     {
         id: 118,
-        img: 'assets/images/sponsors/sponsor-18.png'
+        img: 'src/assets/images/sponsors/sponsor-18.png'
     },
     {
         id: 119,
-        img: 'assets/images/sponsors/sponsor-19.png'
+        img: 'src/assets/images/sponsors/sponsor-19.png'
     },
     {
         id: 120,
-        img: 'assets/images/sponsors/sponsor-20.png'
+        img: 'src/assets/images/sponsors/sponsor-20.png'
     },
     {
         id: 121,
-        img: 'assets/images/sponsors/sponsor-40.png'
+        img: 'src/assets/images/sponsors/sponsor-40.png'
     },
     {
         id: 122,
-        img: 'assets/images/sponsors/sponsor-41.png'
+        img: 'src/assets/images/sponsors/sponsor-41.png'
     },
 ];
 
 const INSTAGRAM = [
     {
         id: 201,
-        img: 'assets/images/instagram-feed/instagram-image-1.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-1.png'
     },
     {
         id: 202,
-        img: 'assets/images/instagram-feed/instagram-image-2.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-2.png'
     },
     {
         id: 203,
-        img: 'assets/images/instagram-feed/instagram-image-3.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-3.png'
     },
     {
         id: 204,
-        img: 'assets/images/instagram-feed/instagram-image-4.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-4.png'
     },
     {
         id: 205,
-        img: 'assets/images/instagram-feed/instagram-image-5.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-5.png'
     },
     {
         id: 206,
-        img: 'assets/images/instagram-feed/instagram-image-6.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-6.png'
     },
     {
         id: 207,
-        img: 'assets/images/instagram-feed/instagram-image-7.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-7.png'
     },
     {
         id: 208,
-        img: 'assets/images/instagram-feed/instagram-image-8.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-8.png'
     },
     {
         id: 209,
-        img: 'assets/images/instagram-feed/instagram-image-9.png'
+        img: 'src/assets/images/instagram-feed/instagram-image-9.png'
     },
 ];
 
