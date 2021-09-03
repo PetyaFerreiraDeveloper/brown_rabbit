@@ -121,16 +121,14 @@ header {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    text-align: center;
+    /* text-align: center; */
     color: white;
     background: black;
 }
 
-.search-results article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.search-results .news-article {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 1rem;
 }
 
 .search-results button {
@@ -140,6 +138,10 @@ header {
 .search-results button:hover {
     background: #707070;
     color: white;
+}
+
+.search-btn:hover {
+    background: none;
 }
 
 .logo {
@@ -197,6 +199,7 @@ header button:hover {
 .mobile-search-btn:focus {
     outline: none;
 }
+
 
 .hamburger-icon {
     color: white;
