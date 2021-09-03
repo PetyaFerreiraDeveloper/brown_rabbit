@@ -14,7 +14,7 @@ const HIGHLIGHTS = [
     {
         id: 3,
         img: 'url(/src/assets/images/slider/highlight03.jpg)',
-        text: 'Be yourself; everyone else is already taken.',
+        text: 'Be yourself: everyone else is already taken.',
         author: '- Oscar Wilde'
     },
     {
