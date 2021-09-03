@@ -267,7 +267,7 @@ header button:hover {
    /* background-image: url(/src/assets/images/slider/highlight01.jpg); */
    background-size: cover;
    background-position: center;
-   background-color: black;
+   /* background-color: black; */
    background-repeat: no-repeat;
    width: 100vw;
    height: 360px;
