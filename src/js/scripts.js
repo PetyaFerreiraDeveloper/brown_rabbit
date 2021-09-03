@@ -1,31 +1,31 @@
 const HIGHLIGHTS = [
     {
         id: 1,
-        img: 'url(../assets/images/slider/highlight01.jpg)',
+        img: 'url(src/assets/images/slider/highlight01.jpg)',
         text: 'To create an environment in which knowledge about coffee and its sphere can be obtained',
         author: '-World Barista Cup'
     },
     {
         id: 2,
-        img: 'url(../assets/images/slider/highlight02.jpg)',
+        img: 'url(src/assets/images/slider/highlight02.jpg)',
         text: 'Live as if you were to die tomorrow. Learn as if you were to live forever.',
         author: '- Mahatma Gandhi'
     },
     {
         id: 3,
-        img: 'url(../assets/images/slider/highlight03.jpg)',
+        img: 'url(src/assets/images/slider/highlight03.jpg)',
         text: 'Be yourself: everyone else is already taken.',
         author: '- Oscar Wilde'
     },
     {
         id: 4,
-        img: 'url(../assets/images/slider/highlight04.jpg)',
+        img: 'url(src/assets/images/slider/highlight04.jpg)',
         text: 'Whenever you find yourself on the side of the majority, it is time to pause and reflect.',
         author: '- Mark Twain'
     },
     {
         id: 5,
-        img: 'url(../assets/images/slider/highlight05.jpg)',
+        img: 'url(src/assets/images/slider/highlight05.jpg)',
         text: 'A mind is like a parachute. It doesn’t work if it isn’t open.',
         author: '- Frank Zappa'
     }
