@@ -263,7 +263,7 @@ header button:hover {
 }
 
 .slider {
-   background-image: url(assets/images/slider/highlight01.jpg);
+   background-image: url(../assets/images/slider/highlight01.jpg);
    /* background-image: url(/src/assets/images/slider/highlight01.jpg); */
    background-size: cover;
    background-position: center;
